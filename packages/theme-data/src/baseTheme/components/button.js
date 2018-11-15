@@ -92,7 +92,10 @@ export default {
     value: "2px"
   },
   "button.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "basics.colors.charcoal600"
+    }
   },
 
   /**
@@ -188,8 +191,11 @@ export default {
       ref: "button.outline.backgroundColor"
     }
   },
-  "button.outline.hover.borderColor": { 
-    type: COLOR
+  "button.outline.hover.borderColor": {
+    type: COLOR,
+    value: {
+      ref: "button.outline.borderColor"
+    }
   },
   "button.outline.hover.halo.color": {
     type: COLOR,
@@ -201,17 +207,26 @@ export default {
     }
   },
   "button.outline.hover.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.textColor"
+    }
   },
   "button.outline.hover.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.icon.color"
+    }
   },
 
   /**
    * #### Focus
    */
   "button.outline.focus.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.backgroundColor"
+    }
   },
   "button.outline.focus.borderColor": {
     type: COLOR,
@@ -229,10 +244,16 @@ export default {
     }
   },
   "button.outline.focus.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.textColor"
+    }
   },
   "button.outline.focus.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.icon.color"
+    }
   },
 
   /**
@@ -243,7 +264,10 @@ export default {
     value: "4px"
   },
   "button.outline.pressed.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.backgroundColor"
+    }
   },
   "button.outline.pressed.borderColor": {
     type: COLOR,
@@ -261,29 +285,65 @@ export default {
     }
   },
   "button.outline.pressed.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.textColor"
+    }
   },
   "button.outline.pressed.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.icon.color"
+    }
   },
 
   /**
    * #### Disabled
    */
   "button.outline.disabled.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.backgroundColor"
+    },
+    transform: {
+      alpha: 0.2
+    }
   },
   "button.outline.disabled.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.borderColor"
+    },
+    transform: {
+      alpha: 0.2
+    }
   },
   "button.outline.disabled.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.disabled.halo.color"
+    },
+    transform: {
+      alpha: 0.2
+    }
   },
   "button.outline.disabled.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.textColor"
+    },
+    transform: {
+      alpha: 0.2
+    }
   },
   "button.outline.disabled.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.outline.icon.color"
+    },
+    transform: {
+      alpha: 0.2
+    }
   },
 
   /**
@@ -304,7 +364,10 @@ export default {
     }
   },
   "button.solid.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.halo.color"
+    }
   },
   "button.solid.textColor": {
     type: COLOR,
@@ -329,7 +392,10 @@ export default {
     }
   },
   "button.solid.hover.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.borderColor"
+    }
   },
   "button.solid.hover.halo.color": {
     type: COLOR,
@@ -339,13 +405,18 @@ export default {
     transform: {
       alpha: 0.4
     }
-
   },
   "button.solid.hover.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.textColor"
+    }
   },
   "button.solid.hover.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.icon.color"
+    }
   },
 
   /**
@@ -358,7 +429,10 @@ export default {
     }
   },
   "button.solid.focus.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.borderColor"
+    }
   },
   "button.solid.focus.halo.color": {
     type: COLOR,
@@ -370,10 +444,16 @@ export default {
     }
   },
   "button.solid.focus.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.textColor"
+    }
   },
   "button.solid.focus.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.icon.color"
+    }
   },
 
   /**
@@ -384,10 +464,16 @@ export default {
     value: "4px"
   },
   "button.solid.pressed.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.backgroundColor"
+    }
   },
   "button.solid.pressed.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.borderColor"
+    }
   },
   "button.solid.pressed.halo.color": {
     type: COLOR,
@@ -399,29 +485,62 @@ export default {
     }
   },
   "button.solid.pressed.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.textColor"
+    }
   },
   "button.solid.pressed.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.icon.color"
+    }
   },
 
   /**
    * #### Disabled
    */
   "button.solid.disabled.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.backgroundColor",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.solid.disabled.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.borderColor",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.solid.disabled.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.disabled.halo.color"
+    }
   },
   "button.solid.disabled.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.textColor",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.solid.disabled.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.solid.icon.color",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
 
   /**
@@ -432,7 +551,10 @@ export default {
   "button.flat.backgroundColor": transparentColor,
   "button.flat.borderColor": transparentColor,
   "button.flat.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.halo.color"
+    }
   },
   "button.flat.textColor": {
     type: COLOR,
@@ -451,29 +573,53 @@ export default {
    * #### Hover
    */
   "button.flat.hover.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.backgroundColor"
+    }
   },
   "button.flat.hover.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.borderColor"
+    }
   },
   "button.flat.hover.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.hover.halo.color"
+    },
+    transform: {
+      alpha: 0.4
+    }
   },
   "button.flat.hover.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.textColor"
+    }
   },
   "button.flat.hover.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.icon.color"
+    }
   },
 
   /**
    * #### Focus
    */
   "button.flat.focus.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.backgroundColor"
+    }
   },
   "button.flat.focus.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.borderColor"
+    }
   },
   "button.flat.focus.halo.color": {
     type: COLOR,
@@ -485,10 +631,16 @@ export default {
     }
   },
   "button.flat.focus.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.textColor"
+    }
   },
   "button.flat.focus.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.icon.color"
+    }
   },
 
   /**
@@ -499,10 +651,16 @@ export default {
     value: "4px"
   },
   "button.flat.pressed.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.backgroundColor"
+    }
   },
   "button.flat.pressed.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.borderColor"
+    }
   },
   "button.flat.pressed.halo.color": {
     type: COLOR,
@@ -514,28 +672,64 @@ export default {
     }
   },
   "button.flat.pressed.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.textColor"
+    }
   },
   "button.flat.pressed.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.icon.color"
+    }
   },
 
   /**
    * #### Disabled
    */
   "button.flat.disabled.backgroundColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.backgroundColor",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.flat.disabled.borderColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.borderColor",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.flat.disabled.halo.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.disabled.halo.color",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.flat.disabled.textColor": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.textColor",
+      transform: {
+        alpha: 0.2
+      }
+    }
   },
   "button.flat.disabled.icon.color": {
-    type: COLOR
+    type: COLOR,
+    value: {
+      ref: "button.flat.icon.color",
+      transform: {
+        alpha: 0.2
+      }
+    }
   }
 };
