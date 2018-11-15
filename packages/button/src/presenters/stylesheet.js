@@ -34,14 +34,20 @@ function getButtonRulesByType(type, themeData) {
         background: themeData["button.solid.backgroundColor"],
         color: themeData["button.solid.textColor"],
         "&:hover": {
-          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${themeData["button.solid.hover.halo.color"]}`
+          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${
+            themeData["button.solid.hover.halo.color"]
+          }`
         },
         "&:focus": {
-          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${themeData["button.solid.focus.halo.color"]}`,
+          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${
+            themeData["button.solid.focus.halo.color"]
+          }`,
           outline: `none`
         },
         "&:active": {
-          boxShadow: `0 0 0 ${themeData["button.solid.pressed.haloWidth"]} ${themeData["button.solid.pressed.halo.color"]}`
+          boxShadow: `0 0 0 ${themeData["button.solid.pressed.haloWidth"]} ${
+            themeData["button.solid.pressed.halo.color"]
+          }`
         },
         "&:visited": {
           color: themeData["button.solid.textColor"]
@@ -58,16 +64,22 @@ function getButtonRulesByType(type, themeData) {
         borderColor: themeData["button.outline.borderColor"],
         color: themeData["button.outline.textColor"],
         "&:hover": {
-          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${themeData["button.outline.hover.halo.color"]}`
+          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${
+            themeData["button.outline.hover.halo.color"]
+          }`
         },
         "&:focus": {
           borderColor: themeData["button.outline.focus.borderColor"],
-          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${themeData["button.outline.focus.halo.color"]}`,
+          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${
+            themeData["button.outline.focus.halo.color"]
+          }`,
           outline: `none`
         },
         "&:active": {
           borderColor: themeData["button.outline.pressed.borderColor"],
-          boxShadow: `0 0 0 ${themeData["button.outline.pressed.haloWidth"]} ${themeData["button.outline.pressed.halo.color"]}`
+          boxShadow: `0 0 0 ${themeData["button.outline.pressed.haloWidth"]} ${
+            themeData["button.outline.pressed.halo.color"]
+          }`
         },
         "&:visited": {
           color: themeData["button.outline.textColor"]
@@ -83,14 +95,20 @@ function getButtonRulesByType(type, themeData) {
         borderColor: themeData["button.flat.borderColor"],
         color: themeData["button.flat.textColor"],
         "&:hover": {
-          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${themeData["button.flat.hover.halo.color"]}`
+          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${
+            themeData["button.flat.hover.halo.color"]
+          }`
         },
         "&:focus": {
-          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${themeData["button.flat.focus.halo.color"]}`,
+          boxShadow: `0 0 0 ${themeData["button.halo.width"]} ${
+            themeData["button.flat.focus.halo.color"]
+          }`,
           outline: `none`
         },
         "&:active": {
-          boxShadow: `0 0 0 ${themeData["button.flat.pressed.haloWidth"]} ${themeData["button.flat.pressed.halo.color"]}`
+          boxShadow: `0 0 0 ${themeData["button.flat.pressed.haloWidth"]} ${
+            themeData["button.flat.pressed.halo.color"]
+          }`
         },
         "&:visited": {
           color: themeData["button.flat.textColor"]
