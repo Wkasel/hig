@@ -74,6 +74,11 @@ export default [
     readme: undefined
   },
   {
+    description: "Component - Flyout",
+    schema: filterMatchByKey(baseTheme.unresolvedRoles, /^flyout./),
+    readme: undefined
+  },
+  {
     description: "Component - Forms",
     schema: filterMatchByKey(baseTheme.unresolvedRoles, /^formField./),
     readme: undefined
