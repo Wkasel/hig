@@ -55,32 +55,10 @@ export default class ProjectAccountSwitcher extends Component {
     projectTitle: PropTypes.string
   };
 
-  renderContent(behaviorPayload) {
-    const {
-      activeAccount,
-      activeProject,
-      handleAccountClick,
-      handleProjectClick
-    } = behaviorPayload;
-    const { accounts, accountTitle, projects, projectTitle } = this.props;
-
-    return (
-      <ContentPresenter
-        accounts={accounts}
-        accountTitle={accountTitle}
-        activeAccount={activeAccount}
-        activeProject={activeProject}
-        onAccountClick={handleAccountClick}
-        onProjectClick={handleProjectClick}
-        projects={projects}
-        projectTitle={projectTitle}
-      />
-    );
-  }
-
   render() {
     const {
       accounts,
+      accountTitle,
       activeAccountId,
       activeLabel,
       activeProjectId,
@@ -90,7 +68,8 @@ export default class ProjectAccountSwitcher extends Component {
       onClick,
       onTargetClick,
       open,
-      projects
+      projects,
+      projectTitle
     } = this.props;
 
     return (
@@ -113,12 +92,24 @@ export default class ProjectAccountSwitcher extends Component {
             anchorPoint={anchorPoint}
             open={open}
             panel={renderPanel}
-            content={this.renderContent({
-              activeAccount,
-              activeProject,
-              handleAccountClick,
-              handleProjectClick
-            })}
+            content={({ hideFlyout }) => (
+              <ContentPresenter
+                accounts={accounts}
+                accountTitle={accountTitle}
+                activeAccount={activeAccount}
+                activeProject={activeProject}
+                onAccountClick={combineEventHandlers(
+                  handleAccountClick,
+                  hideFlyout
+                )}
+                onProjectClick={combineEventHandlers(
+                  handleProjectClick,
+                  hideFlyout
+                )}
+                projects={projects}
+                projectTitle={projectTitle}
+              />
+            )}
           >
             {({ handleClick }) => (
               <ProjectAccountSwitcherPresenter
