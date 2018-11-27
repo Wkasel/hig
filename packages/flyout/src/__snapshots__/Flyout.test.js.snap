@@ -203,11 +203,11 @@ exports[`flyout/Flyout snapshots renders children from the given render function
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -292,9 +292,11 @@ exports[`flyout/Flyout snapshots renders children from the given render function
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -346,11 +348,11 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -435,9 +437,11 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -489,11 +493,11 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -559,9 +563,11 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -611,11 +617,11 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -680,9 +686,11 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -718,11 +726,11 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -798,9 +806,11 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -857,11 +867,11 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -946,9 +956,11 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -1020,11 +1032,11 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
   transform: rotate(0deg);
 }
 
-.emotion-1 polygon:first-child {
+.emotion-1 .hig__flyout-v1__pointer-border {
   fill: transparent;
 }
 
-.emotion-1 polygon:last-child {
+.emotion-1 .hig__flyout-v1__pointer-background {
   fill: #ffffff;
 }
 
@@ -1070,9 +1082,11 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
         width="24"
       >
         <polygon
+          className="hig__flyout-v1__pointer-border"
           points="0,12 12,0 24,12"
         />
         <polygon
+          className="hig__flyout-v1__pointer-background"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
