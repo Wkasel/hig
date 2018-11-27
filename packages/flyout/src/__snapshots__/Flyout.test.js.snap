@@ -180,7 +180,7 @@ exports[`flyout/Flyout snapshots renders a custom pointer 1`] = `
 `;
 
 exports[`flyout/Flyout snapshots renders children from the given render function 1`] = `
-.emotion-7 {
+.emotion-8 {
   position: relative;
   display: inline-block;
 }
@@ -192,7 +192,7 @@ exports[`flyout/Flyout snapshots renders children from the given render function
   display: flex;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -203,26 +203,26 @@ exports[`flyout/Flyout snapshots renders children from the given render function
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-5 {
+.emotion-6 {
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 0 16px rgba(0,0,0,0.25);
 }
 
-.emotion-4 {
+.emotion-5 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
   min-width: 200px;
   max-width: 400px;
   max-height: 360px;
@@ -231,7 +231,7 @@ exports[`flyout/Flyout snapshots renders children from the given render function
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   display: table;
   width: 100%;
@@ -252,7 +252,7 @@ exports[`flyout/Flyout snapshots renders children from the given render function
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--top-left"
+  className="emotion-8 hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
@@ -277,32 +277,31 @@ exports[`flyout/Flyout snapshots renders children from the given render function
     </button>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-7 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-6 hig__flyout-v1__panel-container"
       style={
         Object {
           "maxHeight": "150px",
@@ -310,10 +309,10 @@ exports[`flyout/Flyout snapshots renders children from the given render function
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-5 hig__flyout-v1__panel-container__inner"
       >
         <div
-          className="emotion-3 hig__flyout-v1__panel"
+          className="emotion-4 hig__flyout-v1__panel"
           onScroll={[Function]}
         >
           Hello World
@@ -325,7 +324,7 @@ exports[`flyout/Flyout snapshots renders children from the given render function
 `;
 
 exports[`flyout/Flyout snapshots renders content from the given render function 1`] = `
-.emotion-7 {
+.emotion-8 {
   position: relative;
   display: inline-block;
 }
@@ -337,7 +336,7 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
   display: flex;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -348,26 +347,26 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-5 {
+.emotion-6 {
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 0 16px rgba(0,0,0,0.25);
 }
 
-.emotion-4 {
+.emotion-5 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
   min-width: 200px;
   max-width: 400px;
   max-height: 360px;
@@ -376,7 +375,7 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   display: table;
   width: 100%;
@@ -397,7 +396,7 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--top-left"
+  className="emotion-8 hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
@@ -422,32 +421,31 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
     </button>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-7 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-6 hig__flyout-v1__panel-container"
       style={
         Object {
           "maxHeight": "150px",
@@ -455,10 +453,10 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-5 hig__flyout-v1__panel-container__inner"
       >
         <div
-          className="emotion-3 hig__flyout-v1__panel"
+          className="emotion-4 hig__flyout-v1__panel"
           onScroll={[Function]}
         >
           Content from render prop
@@ -470,7 +468,7 @@ exports[`flyout/Flyout snapshots renders content from the given render function 
 `;
 
 exports[`flyout/Flyout snapshots renders open by default 1`] = `
-.emotion-7 {
+.emotion-8 {
   position: relative;
   display: inline-block;
 }
@@ -482,7 +480,7 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
   display: flex;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -493,26 +491,26 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-5 {
+.emotion-6 {
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 0 16px rgba(0,0,0,0.25);
 }
 
-.emotion-4 {
+.emotion-5 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
   min-width: 200px;
   max-width: 400px;
   max-height: 360px;
@@ -521,7 +519,7 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   display: table;
   width: 100%;
@@ -542,38 +540,37 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--top-left"
+  className="emotion-8 hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
   />
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-7 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-6 hig__flyout-v1__panel-container"
       style={
         Object {
           "maxHeight": undefined,
@@ -581,10 +578,10 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-5 hig__flyout-v1__panel-container__inner"
       >
         <div
-          className="emotion-3 hig__flyout-v1__panel"
+          className="emotion-4 hig__flyout-v1__panel"
           onScroll={undefined}
         />
       </div>
@@ -594,7 +591,7 @@ exports[`flyout/Flyout snapshots renders open by default 1`] = `
 `;
 
 exports[`flyout/Flyout snapshots renders the panel from a basic render function 1`] = `
-.emotion-4 {
+.emotion-5 {
   position: relative;
   display: inline-block;
 }
@@ -606,7 +603,7 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
   display: flex;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -617,15 +614,15 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-3 {
+.emotion-4 {
   position: absolute;
   display: table;
   width: 100%;
@@ -646,7 +643,7 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
 }
 
 <div
-  className="emotion-4 hig__flyout-v1--top-left"
+  className="emotion-5 hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
@@ -671,26 +668,25 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
     </button>
   </div>
   <div
-    className="emotion-3 hig__flyout-v1__container"
+    className="emotion-4 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
@@ -703,7 +699,7 @@ exports[`flyout/Flyout snapshots renders the panel from a basic render function 
 `;
 
 exports[`flyout/Flyout snapshots renders the panel from a complex render function 1`] = `
-.emotion-6 {
+.emotion-7 {
   position: relative;
   display: inline-block;
 }
@@ -715,7 +711,7 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
   display: flex;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -726,26 +722,26 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-4 {
+.emotion-5 {
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 0 16px rgba(0,0,0,0.25);
 }
 
-.emotion-3 {
+.emotion-4 {
   position: relative;
 }
 
-.emotion-5 {
+.emotion-6 {
   position: absolute;
   display: table;
   width: 100%;
@@ -766,7 +762,7 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
 }
 
 <div
-  className="emotion-6 hig__flyout-v1--top-left"
+  className="emotion-7 hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
@@ -791,32 +787,31 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
     </button>
   </div>
   <div
-    className="emotion-5 hig__flyout-v1__container"
+    className="emotion-6 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
     </div>
     <div
-      className="emotion-4 hig__flyout-v1__panel-container"
+      className="emotion-5 hig__flyout-v1__panel-container"
       style={
         Object {
           "maxHeight": undefined,
@@ -824,7 +819,7 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
       }
     >
       <div
-        className="emotion-3 hig__flyout-v1__panel-container__inner"
+        className="emotion-4 hig__flyout-v1__panel-container__inner"
       >
         <div
           data-mock="MyCustomContainer"
@@ -844,7 +839,7 @@ exports[`flyout/Flyout snapshots renders the panel from a complex render functio
 `;
 
 exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
-.emotion-7 {
+.emotion-8 {
   position: relative;
   display: inline-block;
 }
@@ -856,7 +851,7 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
   display: flex;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -867,26 +862,26 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-5 {
+.emotion-6 {
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 0 16px rgba(0,0,0,0.25);
 }
 
-.emotion-4 {
+.emotion-5 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
   min-width: 200px;
   max-width: 400px;
   max-height: 360px;
@@ -895,7 +890,7 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   display: table;
   width: 100%;
@@ -916,7 +911,7 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--top-left"
+  className="emotion-8 hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
@@ -941,32 +936,31 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
     </button>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-7 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-6 hig__flyout-v1__panel-container"
       style={
         Object {
           "maxHeight": "150px",
@@ -974,10 +968,10 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-5 hig__flyout-v1__panel-container__inner"
       >
         <div
-          className="emotion-3 hig__flyout-v1__panel"
+          className="emotion-4 hig__flyout-v1__panel"
           onScroll={[Function]}
         >
           Hello World
@@ -989,7 +983,7 @@ exports[`flyout/Flyout snapshots renders with a basic set of props 1`] = `
 `;
 
 exports[`flyout/Flyout snapshots renders without props 1`] = `
-.emotion-7 {
+.emotion-8 {
   position: relative;
   display: inline-block;
 }
@@ -1001,7 +995,7 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
   display: flex;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   display: none;
   width: 100%;
@@ -1021,7 +1015,7 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
   transform: none;
 }
 
-.emotion-2 {
+.emotion-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1032,26 +1026,26 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
   transform: rotate(0deg);
 }
 
-.emotion-1 .hig__flyout-v1__pointer-border {
+.emotion-1 {
   fill: transparent;
 }
 
-.emotion-1 .hig__flyout-v1__pointer-background {
+.emotion-2 {
   fill: #ffffff;
 }
 
-.emotion-5 {
+.emotion-6 {
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 0 16px rgba(0,0,0,0.25);
 }
 
-.emotion-4 {
+.emotion-5 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
   min-width: 200px;
   max-width: 400px;
   max-height: 360px;
@@ -1061,38 +1055,37 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--hidden hig__flyout-v1--top-left"
+  className="emotion-8 hig__flyout-v1--hidden hig__flyout-v1--top-left"
 >
   <div
     className="emotion-0 hig__flyout-v1__action"
   />
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-7 hig__flyout-v1__container"
   >
     <div
       aria-hidden="true"
-      className="emotion-2 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3 hig__flyout-v1__pointer-wrapper"
       role="presentation"
       style={undefined}
     >
       <svg
-        className="emotion-1"
         height="24"
         viewBox="0 0 24 24"
         width="24"
       >
         <polygon
-          className="hig__flyout-v1__pointer-border"
+          className="emotion-1"
           points="0,12 12,0 24,12"
         />
         <polygon
-          className="hig__flyout-v1__pointer-background"
+          className="emotion-2"
           points="2.5,12 12,2.5 21.5,12"
         />
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-6 hig__flyout-v1__panel-container"
       style={
         Object {
           "maxHeight": undefined,
@@ -1100,10 +1093,10 @@ exports[`flyout/Flyout snapshots renders without props 1`] = `
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-5 hig__flyout-v1__panel-container__inner"
       >
         <div
-          className="emotion-3 hig__flyout-v1__panel"
+          className="emotion-4 hig__flyout-v1__panel"
           onScroll={undefined}
         />
       </div>
