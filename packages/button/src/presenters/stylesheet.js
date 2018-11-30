@@ -129,7 +129,7 @@ function getButtonRulesBySize(size, themeData) {
         height: "42px", // line-height + (borderWidth * 2)
         lineHeight: "40px",
         minWidth: "90px",
-        padding: "0 24px"
+        padding: `0 ${themeData["button.large.horizontalPadding"]}`
       };
     default:
       return {};
