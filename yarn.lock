@@ -135,6 +135,16 @@
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.3.tgz#6310a047f12d21a1036fb031317219892440416f"
 
+"@emotion/utils@0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.11.1.tgz#8529b7412a6eb4b48bdf6e720cc1b8e6e1e17628"
+  integrity sha512-8M3VN0hetwhsJ8dH8VkVy7xo5/1VoBsDOk/T4SJOeXwTO1c4uIqVNx2qyecLFnnUWD5vvUqHQ1gASSeUN6zcTg==
+
+"@emotion/weak-memoize@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
+  integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
+
 "@hig/dropdown@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@hig/dropdown/-/dropdown-0.3.0.tgz#bd764146a2d3b196021ecac323dc7fa5b7500d1e"
