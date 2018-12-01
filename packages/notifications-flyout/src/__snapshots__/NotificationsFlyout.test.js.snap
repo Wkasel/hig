@@ -64,10 +64,10 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--hidden hig__flyout-v1--top-left"
+  className="emotion-7"
 >
   <div
-    className="emotion-0 hig__flyout-v1__action"
+    className="emotion-0"
   >
     <div
       className="hig__notifications-flyout__indicator"
@@ -102,11 +102,11 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
     </div>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-6"
   >
     <div
       aria-hidden="true"
-      className="emotion-3 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3"
       role="presentation"
       style={undefined}
     >
@@ -126,7 +126,7 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-5"
       style={
         Object {
           "maxHeight": undefined,
@@ -134,7 +134,7 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-4"
       >
         <header
           className="hig__notifications-flyout__panel__title"
@@ -256,10 +256,10 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--hidden hig__flyout-v1--top-left"
+  className="emotion-7"
 >
   <div
-    className="emotion-0 hig__flyout-v1__action"
+    className="emotion-0"
   >
     <div
       className="hig__notifications-flyout__indicator"
@@ -294,11 +294,11 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
     </div>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-6"
   >
     <div
       aria-hidden="true"
-      className="emotion-3 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3"
       role="presentation"
       style={undefined}
     >
@@ -318,7 +318,7 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-5"
       style={
         Object {
           "maxHeight": undefined,
@@ -326,7 +326,7 @@ exports[`notifications-flyout/NotificationsFlyout renders a notification with th
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-4"
       >
         <header
           className="hig__notifications-flyout__panel__title"
@@ -448,10 +448,10 @@ exports[`notifications-flyout/NotificationsFlyout renders with all props 1`] = `
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--top-left"
+  className="emotion-7"
 >
   <div
-    className="emotion-0 hig__flyout-v1__action"
+    className="emotion-0"
   >
     <div
       className="hig__notifications-flyout__indicator"
@@ -486,11 +486,11 @@ exports[`notifications-flyout/NotificationsFlyout renders with all props 1`] = `
     </div>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-6"
   >
     <div
       aria-hidden="true"
-      className="emotion-3 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3"
       role="presentation"
       style={undefined}
     >
@@ -510,7 +510,7 @@ exports[`notifications-flyout/NotificationsFlyout renders with all props 1`] = `
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-5"
       style={
         Object {
           "maxHeight": undefined,
@@ -518,7 +518,7 @@ exports[`notifications-flyout/NotificationsFlyout renders with all props 1`] = `
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-4"
       >
         <header
           className="hig__notifications-flyout__panel__title"
@@ -662,10 +662,10 @@ exports[`notifications-flyout/NotificationsFlyout renders without props 1`] = `
 }
 
 <div
-  className="emotion-7 hig__flyout-v1--hidden hig__flyout-v1--top-left"
+  className="emotion-7"
 >
   <div
-    className="emotion-0 hig__flyout-v1__action"
+    className="emotion-0"
   >
     <div
       className="hig__notifications-flyout__indicator"
@@ -700,11 +700,11 @@ exports[`notifications-flyout/NotificationsFlyout renders without props 1`] = `
     </div>
   </div>
   <div
-    className="emotion-6 hig__flyout-v1__container"
+    className="emotion-6"
   >
     <div
       aria-hidden="true"
-      className="emotion-3 hig__flyout-v1__pointer-wrapper"
+      className="emotion-3"
       role="presentation"
       style={undefined}
     >
@@ -724,7 +724,7 @@ exports[`notifications-flyout/NotificationsFlyout renders without props 1`] = `
       </svg>
     </div>
     <div
-      className="emotion-5 hig__flyout-v1__panel-container"
+      className="emotion-5"
       style={
         Object {
           "maxHeight": undefined,
@@ -732,7 +732,7 @@ exports[`notifications-flyout/NotificationsFlyout renders without props 1`] = `
       }
     >
       <div
-        className="emotion-4 hig__flyout-v1__panel-container__inner"
+        className="emotion-4"
       >
         <header
           className="hig__notifications-flyout__panel__title"
